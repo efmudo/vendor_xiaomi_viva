@@ -41,7 +41,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/viva/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
     vendor/xiaomi/viva/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/xiaomi/viva/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/xiaomi/viva/proprietary/product/vendor_overlay/30/lib64/libpn557_fw.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/libpn557_fw.so
+    vendor/xiaomi/viva/proprietary/product/vendor_overlay/30/lib64/libpn557_fw.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/libpn557_fw.so \
+    vendor/xiaomi/viva/proprietary/product/vendor_overlay/30/firmware/aw8622x_haptic.bin:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/firmware/aw8622x_haptic.bin \
+    vendor/xiaomi/viva/proprietary/product/vendor_overlay/30/firmware/goodix_cfg_group.bin:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/firmware/goodix_cfg_group.bin \
+    vendor/xiaomi/viva/proprietary/product/vendor_overlay/30/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/firmware/goodix_firmware.bin
 
 PRODUCT_PACKAGES += \
     ImsService \
